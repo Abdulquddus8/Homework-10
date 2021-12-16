@@ -16,6 +16,7 @@ body {
 
 /* Header css boshlanishi */
 .header {
+    justify-content: space-between;
     margin-bottom: 117px;
     padding-top: 41px;
     display: flex;
@@ -135,9 +136,11 @@ body {
 /*Hero_bottom_tugashi*/
 
 /*section_university_boshlanishi*/
-#univer-section {
-    padding: 0px 120px 59px;
+#univer-section{
     background-color: #FAFAFA;
+}
+.univer-cont {
+    padding: 0px 120px 59px;
     width: 1440px;
     margin-left: auto;
     margin-right: auto;
@@ -294,10 +297,12 @@ body {
 /*secton-services_tugashi*/
 
 /* section news start */
-.section-news {
+.section-news{
+    background-color: #fafafa;
+}
+.new-div-cont {
     padding-top: 102px;
     padding-bottom: 124px;
-    background-color: #fafafa;
     width: 1440px;
     margin-left: auto;
     margin-right: auto;
@@ -502,8 +507,10 @@ body {
 /* section news finish */
 
 /* section countries start */
-.countries {
+.countries{
     background-color: #fafafa;
+}
+.count-div {
     padding-top: 82px;
     padding-bottom: 136px;
     width: 1440px;
@@ -645,9 +652,12 @@ body {
 }
 
 /* section testimonial finish */
-.dream {
-    padding: 82px 150px 74px 147px;
+
+.dream{
     background-color: #fafafa;
+}
+.dream-div-cont {
+    padding: 82px 150px 74px 147px;
     width: 1440px;
     margin-left: auto;
     margin-right: auto;
@@ -676,10 +686,11 @@ body {
     border-radius: 11px;
     border: none;
 }
-
-.footer {
-    padding: 64px 149px 45px 144px;
+.footer{
     background-color: #717cff;
+}
+.foter-div-cont {
+    padding: 64px 149px 45px 144px;
     width: 1440px;
     height: 346px;
     margin-left: auto;
